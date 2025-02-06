@@ -63,7 +63,7 @@ const AboutUs = () => {
           </div>
           <div className="flex justify-center items-center gap-4">
             <div className="w-20 h-1 bg-white/30" />
-            <span className="text-xl">EST. 2015</span>
+            <span className="text-xl">EST. 2010</span>
             <div className="w-20 h-1 bg-white/30" />
           </div>
         </div>
@@ -110,11 +110,10 @@ const AboutUs = () => {
           <div className="relative max-w-5xl mx-auto">
             <div className="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-[#007A8C] via-[#009AAC] to-orange-500" />
             {[
-              { year: 2015, title: "Foundation", description: "Started with a vision to revolutionize education", icon: Book },
-              { year: 2017, title: "First Milestone", description: "Achieved 100+ successful student placements", icon: Target },
-              { year: 2019, title: "Innovation", description: "Launched cutting-edge learning platforms", icon: Cpu },
-              { year: 2021, title: "Expansion", description: "Opened multiple centers across the city", icon: MapPin },
-              { year: 2023, title: "Excellence", description: "Recognized as a leading educational institution", icon: Award }
+              { year: 2010, title: "Foundation", description: "Started with a vision to revolutionize education", icon: Book },
+              { year: 2015, title: "First Milestone", description: "Writen Own Book of Maths", icon: Target },
+              { year: 2019, title: "Award", description: "Best Mathematics Teacher Award", icon: Cpu },
+              { year: 2025, title: "Expansion", description: "Opened New centers in the city", icon: MapPin },
             ].map((milestone, index) => (
               <div 
                 key={milestone.year}

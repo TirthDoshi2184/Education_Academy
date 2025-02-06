@@ -110,7 +110,7 @@ const HomePage = () => {
                 <div className="absolute inset-0 bg-[#00ACC1] transform rotate-6 rounded-2xl"></div>
                 <div className="relative bg-white p-6 rounded-2xl shadow-xl">
                   <div className="aspect-w-4 aspect-h-5 mb-6">
-                    <div className="w-full h-[600px] bg-[url('https://res.cloudinary.com/drl7llkoc/image/upload/v1738507440/Profile_photo_algkf8.jpg')] rounded-xl bg-cover bg-center"></div>
+                    <div className="w-full h-[600px] bg-[url('https://res.cloudinary.com/dne8hhrez/image/upload/v1738690123/WhatsApp_Image_2025-02-04_at_22.55.22_3a91c665_uiwcqe.jpg')] rounded-xl bg-cover bg-center"></div>
                   </div>
                   <div className="text-center">
                     <h3 className="text-3xl font-bold text-[#00ACC1] mb-2">Rajesh Sir</h3>
@@ -268,7 +268,7 @@ const HomePage = () => {
               <div key={i} className="group relative overflow-hidden rounded-xl shadow-lg">
                 <div className="aspect-w-16 aspect-h-9">
                   <img 
-                    src={`/api/placeholder/${400}/${300}`}
+                    src={`https://res.cloudinary.com/dne8hhrez/image/upload/v1738690214/WhatsApp_Image_2025-02-04_at_22.57.35_4e08b4cd_cbgwt3.jpg`}
                     alt={`Academy photo ${i}`}
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                   />

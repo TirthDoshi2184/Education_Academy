@@ -32,7 +32,7 @@ export default function StudentEnquiryForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/enquiries/adddata', {
+      const response = await fetch('https://education-academy-backend.onrender.com/enquiries/adddata', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

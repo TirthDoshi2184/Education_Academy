@@ -17,15 +17,15 @@ const Footer = () => {
   const locations = [
     {
       area: "Paldi",
-      address: "123 Paldi Main Road, Ahmedabad",
-      phone: "+91 98765 43210",
-      landmark: "Near City Mall"
+      address: "401,402,403 Shukh - Shanti Complex, Bhatta-Paldi, Paldi, Ahmedabad - 380007 ",
+      phone: "+91 98256 29314",
+      landmark: "Near Dominos Pizza , Bhatta"
     },
     {
       area: "Makarba",
-      address: "456 Makarba Circle, Ahmedabad",
-      phone: "+91 98765 43211",
-      landmark: "Opposite Central Park"
+      address: "423,424 Nalanda Icon, Makarba, Ahmedabad, Gujarat 380051",
+      phone: "+91 98256 29314",
+      landmark: "Opposite Police Head Quater, Makarba"
     }
   ];
 
@@ -60,7 +60,7 @@ const Footer = () => {
           {/* Featured Stats */}
           <div className="relative p-6 bg-gradient-to-br from-blue-800/50 to-blue-900/50 rounded-xl overflow-hidden group hover:transform hover:scale-105 transition-all duration-300">
             <div className="absolute top-0 right-0 w-32 h-32 bg-orange-400/10 rounded-full transform translate-x-16 -translate-y-16"></div>
-            <h3 className="text-2xl font-bold mb-2">10+ Years</h3>
+            <h3 className="text-2xl font-bold mb-2">15+ Years</h3>
             <p className="text-blue-200">Of Excellence in Education</p>
           </div>
           
@@ -89,7 +89,7 @@ const Footer = () => {
                 <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-orange-400 to-transparent"></span>
               </h2>
               <p className="mt-4 text-blue-100 leading-relaxed">
-                Empowering students with quality education and comprehensive learning since 2013. Under the expert guidance of Rajesh Sir, we've helped shape the future of over 600 students.
+                Empowering students with quality education and comprehensive learning since 2010. Under the expert guidance of Rajesh Sir, we've helped shape the future of over 3000+ students.
               </p>
             </div>
             
@@ -163,18 +163,18 @@ const Footer = () => {
               </h3>
               <div className="space-y-4">
                 <a 
-                  href="mailto:info@vidhyaeducation.com"
+                  href="mailto:rajeshsirmaths@gmail.com"
                   className="flex items-center space-x-3 p-3 rounded-lg bg-blue-900/30 hover:bg-blue-800/40 transform hover:-translate-y-1 transition-all duration-300"
                 >
                   <Mail className="w-5 h-5 text-orange-400" />
-                  <span className="text-blue-100">info@vidhyaeducation.com</span>
+                  <span className="text-blue-100">rajeshsirmaths@gmail.com</span>
                 </a>
                 <a 
-                  href="tel:+919876543210"
+                  href="tel:+919825629314"
                   className="flex items-center space-x-3 p-3 rounded-lg bg-blue-900/30 hover:bg-blue-800/40 transform hover:-translate-y-1 transition-all duration-300"
                 >
                   <Phone className="w-5 h-5 text-orange-400" />
-                  <span className="text-blue-100">+91 98765 43210</span>
+                  <span className="text-blue-100">+91 98256 29314</span>
                 </a>
               </div>
             </div>

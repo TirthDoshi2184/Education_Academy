@@ -84,16 +84,17 @@ const Navbar = () => {
   return (
     <AppBar position="sticky" elevation={2}>
       <StyledToolbar>
-        {/* Logo and Brand */}
-        <Box display="flex" alignItems="center">
-          <LogoCircle>
-            <img src="https://res.cloudinary.com/drl7llkoc/image/upload/v1738159048/logo_uwktyk.jpg" alt="" />
-          </LogoCircle>
-          <BrandName>
-            VidhyaEducation
-          </BrandName>
-        </Box>
-
+       {/* Logo and Brand */}
+<Box display="flex" alignItems="center">
+  <a href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
+    <LogoCircle>
+      <img src="https://res.cloudinary.com/drl7llkoc/image/upload/v1738159048/logo_uwktyk.jpg" alt="" />
+    </LogoCircle>
+    <BrandName>
+      VidhyaEducation
+    </BrandName>
+  </a>
+</Box>
         {/* Desktop Navigation */}
         <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 2, alignItems: 'center' }}>
           {navItems.map((item) => (

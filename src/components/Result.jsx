@@ -118,7 +118,7 @@ const ResultsPage = () => {
     }
   ];
   const stats = {
-    totalStudents: 1250,
+    totalStudents: 3000,
     successRate: 98,
     averageScore: 85.5,
     topperScore: 98.5,
