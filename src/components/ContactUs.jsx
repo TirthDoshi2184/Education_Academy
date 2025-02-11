@@ -152,7 +152,7 @@ const Contact = () => {
                   </div>
                   <div className="flex items-center">
                     <Mail className="w-6 h-6 mr-4" />
-                    <p>contact@vidhyaeducation.com</p>
+                    <p>rajeshsirmaths@gmail.com</p>
                   </div>
                 </div>
               </div>

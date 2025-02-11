@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -32,7 +32,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Facebook, link: "https://facebook.com/vidhyaeducation", color: "#1877f2", name: "Facebook" },
     { icon: Instagram, link: "https://instagram.com/vidhyaeducation", color: "#e4405f", name: "Instagram" },
-    { icon: Twitter, link: "https://twitter.com/vidhyaeducation", color: "#1da1f2", name: "Twitter" }
+    { icon: MessageCircle, link: "https://whatsapp.com/channel/vidhyaeducation", color: "#25D366", name: "WhatsApp" }
   ];
 
   const handleSubscribe = (e) => {

@@ -78,7 +78,7 @@ const Navbar = () => {
     { label: 'About Us', path: '/aboutus' },
     { label: 'Enquiry Form', path: '/admission' },
     { label: 'Results', path: '/result' },
-    { label: 'Gallery', path: '/gallery' },
+    // { label: 'Gallery', path: '/gallery' },
   ];
 
   return (
